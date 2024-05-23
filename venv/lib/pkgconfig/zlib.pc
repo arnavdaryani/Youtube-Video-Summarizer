@@ -1,0 +1,13 @@
+prefix=/Users/arnavdaryani/Documents/PersonalProjects/YTTranscriber/venv
+exec_prefix=/Users/arnavdaryani/Documents/PersonalProjects/YTTranscriber/venv
+libdir=/Users/arnavdaryani/Documents/PersonalProjects/YTTranscriber/venv/lib
+sharedlibdir=/Users/arnavdaryani/Documents/PersonalProjects/YTTranscriber/venv/lib
+includedir=/Users/arnavdaryani/Documents/PersonalProjects/YTTranscriber/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

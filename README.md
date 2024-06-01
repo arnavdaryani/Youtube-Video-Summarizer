@@ -20,8 +20,8 @@ This is a Python-based application that uses Google Gemini Pro and Streamlit to 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/youtube-video-summarizer.git
-    cd youtube-video-summarizer
+    git clone https://github.com/arnavdaryani/Youtube-Video-Summarizer.git
+    cd Youtube-Video-Summarizer
     ```
 
 2. Install the required dependencies:
@@ -36,17 +36,12 @@ This is a Python-based application that uses Google Gemini Pro and Streamlit to 
 
 ## Usage
 
-1. Open the Streamlit app in your web browser (usually at `http://localhost:8501`).
+1. Open the Streamlit app in your web browser.
 2. Enter the URL of the YouTube video you want to summarize.
 3. Click the "Summarize" button.
 4. View the generated summary on the app interface.
 
 ## File Structure
 
-- `app.py`: The main Streamlit app script.
+- `app.py`: The main Streamlit app script. It also contains utility functions for video transcript extraction and summarization.
 - `requirements.txt`: A list of all Python dependencies required for the project.
-- `utils.py`: Contains utility functions for video transcript extraction and summarization.
-
-## Dependencies
-
-The `requirements.txt` file includes all necessary packages:
